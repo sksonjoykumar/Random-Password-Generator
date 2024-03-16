@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(238, 174, 202);
+  background: linear-gradient(90deg, rgb(238, 174, 202) 37%, rgb(148, 163, 233) 100%);
+}
+
+.main-section {
+  margin: 4rem auto 0;
+  width: 30%;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.main-section .section-container .content-heading {
+  margin-bottom: 2rem;
+}
+.main-section .section-container .content-heading h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #01013f;
+}
+.main-section .section-container .content {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 1.5rem;
+  background: #ffffff;
+  border: 2px solid #ddd;
+}
+.main-section .section-container .content input {
+  flex: 1;
+  padding: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  font-size: 16px;
+  outline: none;
+  border: none;
+  background: transparent;
+  transition: all 0.3s;
+}
+.main-section .section-container .content button {
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  padding: 8px 20px;
+  font-size: 2.2rem;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  background: transparent;
+  color: #04aa6d;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.main-section .section-container .content button:hover {
+  color: #098b5b;
+}
+.main-section .section-container .generator-btn {
+  margin-top: 3rem;
+}
+.main-section .section-container .generator-btn button {
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  background: transparent;
+  background-color: navy;
+  border-radius: 0.7rem;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s;
+}/*# sourceMappingURL=style.css.map */
